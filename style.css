@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: "poppins", "sanserif";
+    color: whitesmoke;
+    background: whitesmoke;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container {
+    position: fixed;
+    height: 500px;
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(68, 26, 26);
+    /* background: black; */
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.5);
+    
+}
+
+.image {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+img {
+    height: 500px;
+    padding: 30px;
+}
+
+.date {
+    width: 380px;
+    padding: 25px;
+}
+
+.days {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0 ,15 ,30;
+    margin-top: -35px;
+    padding: 10px;
+
+}
+
+.numbers.active{
+    background: rgb(73, 76, 246);
+}
+
+.day,
+.numbers,
+.numbers-pre {
+    height: 47px;
+    width: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.numbers-pre{
+    color: rgba(238, 238, 238, 0.4);
+}
+
+.numbers:hover,
+.numbers-pre:hover {
+    border: 1.5px solid rgba(238, 238, 238, 0.4);
+
+}
+
+.day {
+    font-size: 85%;
+}
+
+a img {
+    transform: scale(0.10);
+  }
+
+.previous{
+    margin-right: 150px;
+    /* display: flex; */
+    /* display: block; */
+}
+
+.next{
+    margin-left: 150px;
+    /* display: flex; */
+}
